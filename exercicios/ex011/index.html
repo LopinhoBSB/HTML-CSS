@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+    <style>
+        body{
+            padding-left: 5rem;
+            padding-right: 5rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagem dinâmica.</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumenta e diminua seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/pequeno.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/medio.png" type="image/png">
+        <img src="imagens/Grande.png" alt="Imagem Flexivel">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <P>Ouvindo um sonzinho no site</P>
+    <audio src="midia/IVYSON - Girassol (MixTape Poemas para Quem Chora).mp3" controls autoplay> Girassol</audio>
+    <audio preload="metadata" controls> <source src="midia/Kempa - Toque Carinhoso.mp3" type="audio/mpeg"></audio>
+
+    <video src="midia/ssstik.io_1723516420322.mp4" width="500px" controls></video>   <video src="midia/luffy.mp4" width="300px" controls></video>
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ff27TdKm4ig?si=SaePgCsOikDyIXZa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  
+</body>
+</html>

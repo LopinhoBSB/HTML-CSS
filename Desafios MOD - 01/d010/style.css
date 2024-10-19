@@ -1,0 +1,355 @@
+@charset "UTF-8";
+
+
+html {
+  background-color: var(--cor0);
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+
+  vertical-align: baseline;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  
+}
+
+
+a{
+    text-decoration: none;
+}
+
+:root {
+  --cor0: #c5ebd6;
+  --cor1: #83e1ad;
+  --cor2: #3ddc84;
+  --cor3: #2fa866;
+  --cor4: #1a5c37;
+  --cor5: #063d1e;
+  --cor6: #00800010;
+  --cor7: #0080005e;
+  --cor8: #ffffff2a;
+  --cor9: #ffffff;
+  --cor10: #f5f5f5;
+  --cor11: #ffff00;
+  --cor12: #00000085;
+
+  --fonte001: Impact;
+  --fonte002: 'idroid';
+  --fonte003: fantasy;
+  --fonte004: Georgia;
+}
+
+/*Começo do FOOTER*/
+
+footer a{
+  color: white;
+  font-weight: bold;
+}
+footer a:hover{
+  text-decoration: underline;
+  color: var(--cor11);
+}
+footer > .CORPO-6 > p{
+  color: var(--cor3);
+}
+
+/*Fim do FOOTER*/
+
+/* COMEÇO DO HEADER */
+
+header {
+  background-image: linear-gradient(to bottom, #00fc7e, #01963a, #02630f);
+  width: 100%;
+  
+  
+}
+
+header > h1 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonte001);
+    text-shadow: 3px 3px 3px var(--cor9);
+    
+}
+header > p {
+    text-align: center;
+    font-family: var(--fonte001);
+    text-shadow: 2px 2px 2px var(--cor9);
+}
+
+/* FIM DO HEADER */
+
+/* COMEÇO DO ARTICLE */
+
+ article > h1{
+    font-family: var(--fonte002);
+    font-size: 1.5em;
+}
+article > h2{
+    font-family: var(--fonte002);
+    font-size: 1.3em;
+    background-image: linear-gradient(90deg, var(--cor7), var(--cor6));
+}
+
+/* FIM DO ARTICLE */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+img {
+    width: 100%;
+    max-width: 700px;
+    width: 100%;
+    height: 100%;
+}
+
+.imagens {
+  display: flex;
+  justify-content: center;
+}
+
+/* COMEÇO DA LISTA */
+
+ul {
+  list-style-type: none; /* Remove o marcador padrão da lista */
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  padding: 5px 0; /* Espaçamento entre os itens */
+}
+
+.lista {
+    display: flex; /* Flexbox para alinhar as listas lado a lado */
+    justify-content: space-between; /* Espaçamento entre as colunas */
+}
+
+.esquerda {       /* Lista */
+  flex: 1; /* Ocupar 50% do espaço */
+}
+
+.direita {        /*Lista*/
+  flex: 1; /* Ocupar os outros 50% */
+  margin-left: 20px; /* Espaçamento entre as colunas */
+}
+abbr{
+  text-decoration: none;
+}
+/* FIM DA LISTA */
+
+
+/* COMEÇO DO MENU */
+
+.menu a {
+  text-decoration: none; /* Remove o sublinhado dos links */
+  font-family: var(--fonte003);
+  color: var(--cor9);
+  margin: 5px;
+  padding-inline: 5px;
+  padding-block: 4px;
+  border-radius: 4px;
+  
+}
+.menu a:hover {
+  background-color: var(--cor5);
+  cursor: pointer; /* Mostra uma mãozinha ao passar o mouse */
+  color: var(--cor11);
+  transition-duration: 1s;
+}
+
+/* FIM DO MENU */
+
+.CORPO1 {
+  background-color: var(--cor10);
+  padding: 10px; /*Serve pra colocar margen na página*/
+  border-radius: 10px; /*Serve pra colcoar uma bordinha circulada na página*/
+  box-shadow: 5px 5px 15px var(--cor12);
+  width: 100%; /*Serve pra diminuir/aumentar a página*/
+  max-width: 50rem;
+  margin: 1rem;
+}
+
+.CORPO1 > img {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+
+.CORPO-2 {
+  background-color: var(--cor4);
+  padding: 10px; /*Serve pra colocar margen na página*/
+  border-radius: 10px; /*Serve pra colcoar uma bordinha circulada na página*/
+  box-shadow: 5px 5px 15px var();
+}
+
+.video {
+  width: 100%; /*Serve pra diminuir/aumentar a página*/
+  max-width: 70rem;
+  margin: 0;
+  iframe {
+    width: 780px;
+    height: 390px;
+  }
+}
+
+.CORPO-3 {
+  background-color: var(--cor9);
+  padding: 0;
+  margin: 0; /*Serve pra colocar margen na página*/
+  border-radius: 10px; /*Serve pra colcoar uma bordinha circulada na página*/
+  box-shadow: 5px 5px 15px #00000085;
+  width: 100%; /*Serve pra diminuir/aumentar a página*/
+  max-width: 50rem;
+}
+
+.CORPO-4 {
+  background-color: var(--cor3);
+  padding: 0; /*Serve pra colocar margen na página*/
+  margin: 0;
+  
+  width: 100%; /*Serve pra diminuir/aumentar a página*/
+  max-width: 50rem;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.CORPO-4 > h1 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.CORPO-5 {
+  background-color: #abf3cc;
+  padding: 0;
+  margin: 0; /*Serve pra colocar margen na página*/
+  border-radius: 0px 0px 0px 0px; /*Serve pra colcoar uma bordinha circulada na página*/
+  width: 100%; /*Serve pra diminuir/aumentar a página*/
+  max-width: 50rem;
+}
+
+.A-MOD{
+  background-color: var(--cor0);
+  font-family: var(--fonte003);
+}
+
+.CORPO-5 > p {
+  margin: 0;
+  padding: 0;
+}
+
+.CORPO-6 {
+    background-color: var(--cor4);
+    text-align: center;
+    color: white;   
+}
+.CORPO-6 > a {
+    color: var(--cor3);
+}
+
+.CORPO-3 > p{
+    margin: 0;
+}
+  
+.img-2 {
+  width: 100%;
+  margin: 0 auto;
+  max-height: 300px;
+  max-width: 350px;
+}
+
+.paragrafo-com-recuo {
+  text-indent: 30px; /* Define o recuo da primeira linha do texto */
+  font-size: 15px;
+  font-family: var(--fonte004);
+  width: 90%;
+  margin: 15px 0px;
+  line-height: 1.3em;
+}
+
+.CORPO1 > h1 {
+  color: var(--cor5);
+}
+
+.CORPO1 > h2 {
+  color: var(--cor4);
+}
+
+.img-grande {
+  display: block;
+}
+
+.img-pequeno {
+  display: none;
+}
+
+.img-grande1 {
+  display: block;
+}
+
+.img-pequeno1 {
+  display: none;
+}
+
+
+@media (max-width: 575.98px) {
+  .CORPO1 {
+    width: 100%; /*Serve pra diminuir/aumentar a página*/
+  }
+  .img-pequeno {
+    width: 70%;
+    display: block;
+  }
+  .img-grande {
+    display: none;
+    height: 700;
+    margin: 0;
+    padding: 0;
+  }
+  .img-grande1 {
+    display: none;
+    width: 70%;
+    height: 100%;
+  }
+
+  .img-pequeno1 {
+    width: 70%;
+    display: block;
+    
+  }
+  .video {
+    width: 100%; 
+    max-width: 30rem;
+    margin: 0;
+    iframe{
+        width: 100%;
+        height: 100%;
+
+    }
+  }
+  .CORPO-2 {
+    background-color: var(--cor4);
+    padding: 4px; /*Serve pra colocar margen na página*/
+    border-radius: 10px; /*Serve pra colcoar uma bordinha circulada na página*/
+    box-shadow: 5px 5px 15px #00000085;
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 800px) {
+  header {
+    background-image: linear-gradient(190deg, #00fc7e, #01963a, #02630f);
+  }
+}

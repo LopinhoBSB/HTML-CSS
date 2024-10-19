@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient( 80deg,#F2C6C2,#F2E8DF,#F28585);
+    
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+}
+
+main{
+
+    height: 100vh;
+    display: flex; /*tag complementar para outras tags*/ /*Alinhamento*/
+    justify-content: center;
+    align-items: center; /*deixa os items/blocos centralizados*/
+    flex-direction: column;/*Serve pra deixar o comentario abaixo do bloco, elemento e etc*/
+    
+}
+
+div{
+    background-color: whitesmoke;
+    padding: 10px; /*Serve pra colocar margen na página*/
+    border-radius: 10px;/*Serve pra colcoar uma bordinha circulada na página*/
+    box-shadow:5px 5px 15px #a14f4791;
+    width: 600px;/*Serve pra diminuir/aumentar a página*/
+    
+}
+h1{
+    color: #F2B263;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow:2px 2px 2px #c5802c; /*Serve pra colocar um sombreado*/
+}
+h2{
+    color: #86A69D;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}

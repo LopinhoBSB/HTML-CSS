@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+    <style>
+        body{
+            font-family: fantasy;
+        }
+        div#d1{
+            width: 145px;
+        }
+        div > p{ /* Só mexe no paragráfo dentro da div*/
+            display: none;
+            
+        }
+        div:hover > p { /* Só mexe no paragráfo dentro da div*/
+            display: block;
+            color: blueviolet;
+            background-color: lightpink;
+            width: 125px;
+        }
+        div:hover{
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse em cima do texto abaixo</p>
+    <div id="d1">Passe aqui ( LA ELE 3x )
+        <p>TEXTO ESCONDIDO...</p>
+    </div>
+    <p>Fim do Texto</p>
+</body>
+</html>
+
+
+/*div > p{  <--!Só mexe no paragráfo dentro da div-->
+    
+hover = Pseudo classe ou que ativa quando passa o mouse em cima.*/

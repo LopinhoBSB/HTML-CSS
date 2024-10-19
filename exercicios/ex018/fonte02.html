@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /*
+        Site das fontes
+        - Google Fonts e DaFonts
+        */
+        @font-face {
+            font-family: 'Radhesty';
+            src: url('Radhesty.ttf') format('Truetype');
+            font-weight: normal;
+            font-style: normal;
+            /*
+            Tipos de formato()
+            - Opentype (otf)
+            - Truetype (ttf)
+            - Embedded-opentype 
+            - Truetype-aat (Apple Advanced Typography)
+            - SVG
+            */
+        }
+        body{
+            font-size: medium;
+            
+        }
+        h1{
+            font-family: 'Radhesty';
+            font-size: 3em;
+        }
+        p{
+            font-family: fantasy;
+            font-size: 1.5em;
+
+        }
+      
+        .bg1{
+            background-color: aqua;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+            
+        }
+        .bg3{
+            background-color: blueviolet;
+        
+        }
+    </style>
+</head>
+<body>
+    <div class="bg1">
+    <div><h1 class="bg3">LOPINHO</h1></div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Dolor error laborum aliquid earum tempore blanditiis <br> illo provident impedit sapiente laboriosam quia doloremque <br> ullam ducimus accusamus sunt ut odio, ad atque?</p>
+    </div>
+    <div class="bg2">
+        <h2>LOPENHO002</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati iste repudiandae exercitationem cupiditate ullam temporibus, alias nesciunt quis molestias perferendis recusandae libero? Eveniet asperiores sapiente soluta odit! Odio, soluta eaque?</p>
+    </div>
+    
+</body>
+</html>

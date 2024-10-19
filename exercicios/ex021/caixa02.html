@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: rgb(124, 110, 110);
+        }
+
+        header{
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+            
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.253);
+            border-radius: 10px;
+        }
+
+        nav{
+            background-color: rgba(4, 100, 202, 0.911);
+            padding: 10px;
+            box-shadow: 4px 6px 20px 6px rgba(0, 0, 0, 0.658);
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: rgb(241, 241, 241);
+            font-weight: bolder;
+            margin-right: 100px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px 30px;
+        }
+
+        article{
+            background-color: whitesmoke;
+        }
+
+        article > aside{
+            background-color: lightblue;
+        }
+
+        section > p{
+            text-shadow: 3px 3px 3px white;
+            background-color: lightcoral;
+        }
+
+        footer{
+            background-color: darkred ;
+            color: white;
+            text-align: center;
+            padding: 3px;
+            margin: 10px;
+            text-shadow: 5px 5px 2px black;
+        }
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assusntos">
+            <p> Esportes / Video-Game / Programção </p>
+            </section>
+            <section id="notícias"></section>
+            <article>
+                <aside>
+                    <h2>Noticias do pombal</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia quidem iste cumque, veritatis aliquam porro, non eaque numquam harum quaerat molestiae repudiandae, enim eligendi consequuntur distinctio labore ut quo voluptatum.</p>
+                </aside>
+            </article>
+            
+        </section>
+    </main>
+    <footer>
+        <p>Criado por Lopinho</p>
+    </footer>
+    
+
+</body>
+</html>
